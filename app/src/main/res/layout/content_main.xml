@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/buyCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <TextView
+            android:id="@+id/oneTimeBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="false"/>
+
+        <TextView
+            android:id="@+id/subscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="false"/>
+
+        <Button
+            android:id="@+id/consumeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consume" />
+
+        <Button
+            android:id="@+id/purchaseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase" />
+
+        <Button
+            android:id="@+id/purchaseBtnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase One Time" />
+
+        <Button
+            android:id="@+id/purchaseBtnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Subscription" />
+
+</LinearLayout>
